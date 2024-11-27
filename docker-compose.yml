@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  pop:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "4000:3000"

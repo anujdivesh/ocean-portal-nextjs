@@ -1,0 +1,15 @@
+.customInput {
+    height: 30px;
+    padding:0;
+    margin-bottom: 10;
+    font-size: 13px;
+
+}
+
+.react-datepicker__input-container input {
+width: 100%; /* Ensure input takes full width of the container */
+  border: 1px solid #c3c3c4; /* Change border color */
+  border-radius: 0px; /* Optionally, adjust the border radius */
+  outline: none; /* Remove default focus outline */
+  
+}

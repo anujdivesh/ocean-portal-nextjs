@@ -1,0 +1,55 @@
+
+  .custom-modal .modal-content {
+    border-radius: 0; /* Removes the rounded corners */
+  }
+  
+  .custom-modal .modal-header,
+  .custom-modal .modal-body,
+  .custom-modal .modal-footer {
+    border-radius: 0; /* Ensures the header, body, and footer have sharp edges */
+  }
+  
+  .fixed-column {
+    background-color: #f8f9fa; /* Optional: for better visibility */
+    border-right: 1px solid #dee2e6; /* Optional: for better visibility */
+    height: 550px; /* Full height of viewport */
+    position: sticky;
+    top: 0; /* Sticks to the top */
+    overflow: hidden; /* Prevents overflow in the fixed column */
+}
+
+.scrollable-column {
+    height: 550px; /* Full height of viewport */
+    overflow-y: auto; /* Allows vertical scrolling */
+}
+
+.scrollable-content {
+    padding: 15px; /* Optional: for padding inside the scrollable area */
+    /* Add additional styling as needed */
+}
+
+
+/* Make the modal header and footer thinner */
+.modal-header, .modal-footer {
+  padding: 0.5rem; /* Adjust the padding to make the header/footer thinner */
+}
+
+/* Optional: Adjust font size for better fit */
+.modal-header .modal-title, .modal-footer .modal-footer-content {
+  font-size: 0.875rem; /* Adjust the font size if necessary */
+}
+
+/* Optional: Customize modal header/footer borders */
+.modal-header {
+  border-bottom: 1px solid #ddd; /* Light border for the header */
+}
+
+.modal-footer {
+  border-top: 1px solid #ddd; /* Light border for the footer */
+}
+
+.modal-header .btn-close {
+  margin-right: 0; /* Remove default margin */
+  padding-right: 2; /* Remove default padding */
+  /* You can add more styles here if needed */
+}

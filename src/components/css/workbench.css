@@ -1,0 +1,17 @@
+.button-row {
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    gap: 1px; /* Space between buttons */
+    padding: 0;
+    margin:0;
+  }
+  .custom-dropdown-button {
+    font-size: 12px; /* Adjust the font size as needed */
+    border-radius: 0;
+    color: white;
+}
+.custom-dropdown-button:hover {
+  color: #ffffff;            /* Adjust the text color on hover */
+}
+
+

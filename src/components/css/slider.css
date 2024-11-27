@@ -1,0 +1,59 @@
+
+  
+
+  /* Custom styles for range input */
+input[type="range"] {
+    -webkit-appearance: none; /* Remove default styling in WebKit browsers */
+    width: 100%; /* Full width of the slider container */
+    height: 8px; /* Slider track height */
+    background: #ddd; /* Track color */
+    border-radius: 0px; /* Rounded track corners */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Remove default thumb styling */
+    width: 30px; /* Thumb width */
+    height: 15px; /* Thumb height */
+    background: #007bff; /* Thumb color */
+    border-radius: 0px; /* Rounded corners for the thumb */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  input[type="range"]::-moz-range-thumb {
+    width: 4px; /* Thumb width */
+    height: 15px; /* Thumb height */
+    background: #007bff; /* Thumb color */
+    border-radius: 5px; /* Rounded corners for the thumb */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  input[type="range"]::-ms-thumb {
+    width: 30px; /* Thumb width */
+    height: 15px; /* Thumb height */
+    background: #1e2021; /* Thumb color */
+    border-radius: 3px; /* Rounded corners for the thumb */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  input[type="range"]::-webkit-slider-runnable-track {
+    height: 8px; /* Slider track height */
+    background: #ddd; /* Track color */
+    border-radius: 5px; /* Rounded track corners */
+  }
+  
+  input[type="range"]::-moz-range-track {
+    height: 8px; /* Slider track height */
+    background: #ddd; /* Track color */
+    border-radius: 5px; /* Rounded track corners */
+  }
+  
+  input[type="range"]::-ms-track {
+    height: 8px; /* Slider track height */
+    background: #ddd; /* Track color */
+    border-radius: 5px; /* Rounded track corners */
+    border-color: transparent;
+    color: transparent;
+  }
+  

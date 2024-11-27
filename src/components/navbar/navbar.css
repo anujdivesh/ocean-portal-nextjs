@@ -1,0 +1,18 @@
+/* ============== navbar =============================== */
+.nav-link{
+    padding: 5px;
+    margin: 0 2px;
+    border-radius: 15px;
+}
+
+.active-nav,
+.active-nav:active,
+.active-nav:focus{
+    background: orange;
+    color: white;
+}
+.nav-link:hover {
+    background: orange;
+    transition: ease 3s linear;
+
+}

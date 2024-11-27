@@ -1,0 +1,11 @@
+/* App.css */
+
+.flex-container {
+    display: flex; /* Enables flexbox layout */
+    justify-content: space-between; /* Adds space between items */
+    padding-right: 10px;
+    cursor: 'pointer';
+}
+.flex-container:hover {
+    color: #3481bb;
+  }
